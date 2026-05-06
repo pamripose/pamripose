@@ -36,15 +36,6 @@ const paritosh = {
 
 <br />
 
-## now playing
-
-| | what | where |
-| --- | --- | --- |
-| **🟠** | Hermes &mdash; per-branch ephemeral envs &middot; 1,567 builds &middot; 88% e2e | [/work/hermes](https://paritoshdev.netlify.app/work/hermes) |
-| **🟢** | Inventory Service &mdash; saga + per-SKU locks &middot; 3.9M+ writes | [/work/inventory-service](https://paritoshdev.netlify.app/work/inventory-service) |
-| **🟣** | Product Finder &mdash; soft-filter search + ML image similarity &middot; +21% accuracy | [/work/product-finder](https://paritoshdev.netlify.app/work/product-finder) |
-| **🔵** | Generic Compiler Service &mdash; config-driven pipeline · 200 GB/day peak | [/work/generic-compiler](https://paritoshdev.netlify.app/work/generic-compiler) |
-
 → full deep-dives on **[paritoshdev.netlify.app](https://paritoshdev.netlify.app)**
 
 <br />
