@@ -35,9 +35,7 @@ const paritosh = {
 ```
 
 <br />
-
 → full deep-dives on **[paritoshdev.netlify.app](https://paritoshdev.netlify.app)**
-
 <br />
 
 ## elsewhere
