@@ -36,32 +36,6 @@ const paritosh = {
 
 <br />
 
-## what i ship at @parspec
-
-```mermaid
-flowchart LR
-  PR([PR push]) --> H[Hermes<br/>ephemeral env]
-  H --> ALB[/shared ALB<br/>host-header routing/]
-  ALB --> URL((env.dev.parspec.xyz))
-
-  Q[upstream events] --> SAGA[Inventory Service<br/>saga + per-SKU locks]
-  SAGA --> DDB[(DynamoDB)]
-  SAGA --> ES[(Elasticsearch)]
-  SAGA --> EB[downstream pubs]
-
-  REST[Public REST API] --> V2{v2 redesign<br/>in flight}
-  ERP[Eclipse · SAP · JD Edwards · Prophet 21] -.->|byErpId| REST
-
-  classDef ship fill:#1a1a1a,stroke:#ff8c00,color:#ededed;
-  classDef store fill:#121212,stroke:#50e3c2,color:#ededed;
-  classDef pending fill:#1a1a1a,stroke:#fbbf24,stroke-dasharray:4 4,color:#ededed;
-  class H,SAGA,REST ship
-  class DDB,ES store
-  class V2 pending
-```
-
-<br />
-
 ## now playing
 
 | | what | where |
