@@ -9,7 +9,7 @@ This is my **work account** at [Parspec](https://parspec.io).
 
 Software Engineer II at Parspec — backend systems, REST APIs, ERP integrations, search & ranking, async infrastructure.
 
-Previously founding-team Software Engineer I at [Anakin (YC&nbsp;S21)](https://anakin.ai/).
+Previously founding-team Software Engineer I at [Anakin (YC&nbsp;S21)](https://www.anakin.company/).
 
 ## Elsewhere
 
